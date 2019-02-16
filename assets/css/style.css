@@ -26,7 +26,7 @@ hr {
     background-color: #ffffff;
 }
 
-#header {
+header {
     position: fixed;
     left: 0px;
     top: 0px;
@@ -47,7 +47,7 @@ hr {
     color: #ffffff;
     background-color: #4aaaa5;
 }
-#hcontent a,span {
+#hlinks a,span {
     padding: 0px 18px;
     text-decoration: none;
     color: #777777;
@@ -65,6 +65,10 @@ hr {
     padding: 40px 0px;
     text-align: right;
     font-size: large;
+}
+#hlinks a,span:last-child {
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 #content {
@@ -84,7 +88,7 @@ hr {
     float: left;
 }
 
-#footer {
+footer {
     position: fixed;
     width: 100%;
     left: 0px;
@@ -96,9 +100,4 @@ hr {
     padding-bottom: 10px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-}
-
-#hcontent .redge {
-    padding-right: 0px;
-    margin-right: 0px;
 }
