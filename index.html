@@ -3,18 +3,23 @@
     <head>
         <title>My Basic Portfolio</title>
         <!-- Hey, look, a comment -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <div id="header">
-            <h1>Joshua Richardson</h1>
-            About
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+        <div id="header" class="content-box">
+            <div id="hcontent">
+                <h1>Joshua Richardson</h1>
+                <div id="hlinks">
+                    <a href="#">About</a>
+                    <a id="mid" href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
         </div>
-        <div id="content">
+        <div id="content" class="content-box">
             <h1>About Me</h1>
             <hr>
-            <img src="assets/images/killer.png" alt="Pretty, ain't I?">
+            <img id="killer" width="160px" height="160px" src="assets/images/killer.png" alt="Pretty, ain't I?">
             <p>Blather about me</p>
             <p>Bragging, lots of bragging</p>
             <p>Have I mentioned I like motorcycles?  I like motorcycles.</p>

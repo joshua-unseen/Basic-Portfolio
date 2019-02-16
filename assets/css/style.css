@@ -1,0 +1,98 @@
+/*
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+*/
+body {
+    background-image: url('assets/images/back.jpg');
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: lightcyan;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    border-top: 2px solid #dddddd;
+}
+
+.content-box{
+    background-color: #ffffff;
+}
+#header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+
+#hcontent {
+    position: relative;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hcontent h1 {
+    display: inline-block;
+    margin: 0px;
+    padding: 1em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+#hcontent a {
+    padding: 0em 1em;
+    text-decoration: none;
+    color: #777777;
+}
+
+#mid {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+#hlinks {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2.5em 0em;
+    text-align: right;
+    font-size: large;
+}
+
+#content {
+    border: 1px solid #dddddd;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: 898px;
+}
+#content h1 {
+    color: #4aaaa5;
+}
+
+#killer {
+    margin: 8px;
+    float: left;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-size: small;
+    color: #ffffff;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
