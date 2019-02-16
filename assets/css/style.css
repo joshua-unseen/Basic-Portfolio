@@ -25,6 +25,7 @@ hr {
 .content-box{
     background-color: #ffffff;
 }
+
 #header {
     position: fixed;
     left: 0px;
@@ -42,12 +43,12 @@ hr {
 #hcontent h1 {
     display: inline-block;
     margin: 0px;
-    padding: 1em;
+    padding: 32px;
     color: #ffffff;
     background-color: #4aaaa5;
 }
-#hcontent a {
-    padding: 0em 1em;
+#hcontent a,span {
+    padding: 0px 18px;
     text-decoration: none;
     color: #777777;
 }
@@ -61,7 +62,7 @@ hr {
     position: absolute;
     top: 0px;
     right: 0px;
-    padding: 2.5em 0em;
+    padding: 40px 0px;
     text-align: right;
     font-size: large;
 }
@@ -95,4 +96,9 @@ hr {
     padding-bottom: 0.5em;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+}
+
+#hcontent .redge {
+    padding-right: 0px;
+    margin-right: 0px;
 }
