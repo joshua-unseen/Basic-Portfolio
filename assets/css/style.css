@@ -22,8 +22,33 @@ hr {
     border-top: 2px solid #dddddd;
 }
 
+.green {
+    display: inline-block;
+    margin: 0px;
+    padding: 32px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
 .content-box{
     background-color: #ffffff;
+}
+
+.p-item {
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 282px;
+    margin: 10px 0px;
+    background-color: lightcyan
+}
+.p-item-mid {
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 282px;
+    margin: 10px 20px;
+    background-color: lightcyan
 }
 
 header {
@@ -31,7 +56,15 @@ header {
     left: 0px;
     top: 0px;
     width: 100%;
+    z-index: 1;
     border-bottom: 2px solid #cccccc;
+}
+
+input,textarea {
+    width: 100%;
+}
+textarea {
+    height: 10em;
 }
 
 #hcontent {
@@ -40,13 +73,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
-#hcontent h1 {
-    display: inline-block;
-    margin: 0px;
-    padding: 32px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
+
 #hlinks a,span {
     padding: 0px 18px;
     text-decoration: none;
@@ -66,21 +93,25 @@ header {
     text-align: right;
     font-size: large;
 }
-#hlinks a,span:last-child {
+#hlinks :last-child {
     padding-right: 0px;
     margin-right: 0px;
 }
 
 #content {
+    position: relative;
     border: 1px solid #dddddd;
-    margin-top: 140px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 140px auto;
     padding: 30px;
     width: 898px;
 }
 #content h1 {
     color: #4aaaa5;
+}
+#content button {
+    padding: 12px 24px;
+    border: none;
+    font-size: inherit;
 }
 
 #killer {
