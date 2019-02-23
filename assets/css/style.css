@@ -22,12 +22,13 @@ h1,h2,h3,h4,h5,h6 {
 
 hr {
     border-top: 2px solid #dddddd;
+    margin: 20px 0px;
 }
 
 .green {
     display: inline-block;
     margin: 0px;
-    padding: 32px;
+    padding: 1em;
     color: #ffffff;
     background-color: #4aaaa5;
 }
@@ -46,25 +47,25 @@ hr {
 .p-item {
     position: relative;
     display: inline-block;
-    height: 200px;
-    width: 282px;
-    margin: 10px 0px;
+    height: 206px;
+    width: 274px;
+    margin: 20px 0px;
     background-color: lightcyan
 }
 .p-item:nth-child(3n+1) {
-    margin: 10px 20px;
+    margin: 20px 33px;
 }
+.p-item img {
+    display: block;
+}
+
 .p-label {
     position: absolute;
     bottom: 10px;
     width: 100%;
-    background-color: #4aaaa5;
-    color: #ffffff;
     text-align: center;
     font-weight: normal;
-}
-.p-label h2 {
-    font-weight: normal;
+    padding: 0.5em 0px;
 }
 
 header {
@@ -77,10 +78,15 @@ header {
 }
 
 input,textarea {
-    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    width: 886px;
 }
 textarea {
     height: 10em;
+}
+label {
+    font-size: large;
 }
 
 #hcontent {
@@ -122,9 +128,9 @@ textarea {
     width: 898px;
 }
 #content button {
-    padding: 12px 24px;
+    padding: 12px 30px;
     border: none;
-    font-size: inherit;
+    font-size: large;
 }
 
 #killer {
