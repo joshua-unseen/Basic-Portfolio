@@ -15,7 +15,7 @@ body {
     background-image: url(../images/prism.png)
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
 }
@@ -46,14 +46,12 @@ hr {
 
 .p-item {
     position: relative;
-    display: inline-block;
-    height: 206px;
-    width: 274px;
+    float: left;
     margin: 20px 0px;
     background-color: lightcyan
 }
 .p-item:nth-child(3n+1) {
-    margin: 20px 33px;
+    margin: 20px 38px;
 }
 .p-item img {
     display: block;
@@ -77,7 +75,7 @@ header {
     border-bottom: 2px solid #cccccc;
 }
 
-input,textarea {
+input, textarea {
     margin-top: 5px;
     padding: 5px;
     width: 886px;
