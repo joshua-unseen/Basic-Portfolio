@@ -55,6 +55,8 @@ hr {
 }
 .p-item img {
     display: block;
+    width: 274px;
+    height: 206px;
 }
 
 .p-label {
